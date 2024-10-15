@@ -9,11 +9,11 @@ int main()
 	int a, b;
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
-	cout << "Введіть А: ";
+	cout << "Input А: ";
 	cin >> a;
-	cout << "Введіть B: ";
+	cout << "Input B: ";
 	cin >> b;
-	(a % 2 != 0 && b % 2 != 0) ? cout << "А і В непарні" : cout << "Умова не виконується";
+	(a % 2 != 0 && b % 2 != 0) ? cout << "А & В is odd" : cout << "Condition isn't met";
 
 
 }
