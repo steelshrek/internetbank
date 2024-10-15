@@ -13,7 +13,7 @@ int main()
 	cin >> a;
 	cout << "Input B: ";
 	cin >> b;
-	(a % 2 != 0 && b % 2 != 0) ? cout << "À & Â is odd" : cout << "Condition isn't met";
+	(a % 2 = 0 && b % 2 = 0) ? cout << "À & Â is not odd" : cout << "Condition isn't met";
 
 
 }
